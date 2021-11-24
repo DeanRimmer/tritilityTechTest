@@ -1,0 +1,103 @@
+/*styling for main page*/
+html,
+body {
+    background-color: #f2f2f2;
+    color: #636b6f;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.top-left {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.top-right > a {
+    padding-left: 205px;
+    padding-right: 25px;
+}
+
+.links > p {
+    color: #636b6f;
+    padding: 0 25px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+/*login page styling*/
+.box {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+.btn-primary {
+    background-color: #2b7c99;
+}
+
+/*employee page styling*/
+.employeeCompany {
+    font-weight: bold;
+    vertical-align: middle !important;
+}
+.optionsContainer {
+    width: 80%;
+    margin-left: 10%;
+    padding: 25px 0;
+    text-align: right;
+}
+
+/*partial top bar styling*/
+.backButton {
+    margin-left: 50px;
+}
